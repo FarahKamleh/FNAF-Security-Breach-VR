@@ -12,13 +12,11 @@ public class leverAction_SunMoon : MonoBehaviour
         moonDrop.SetActive(false);
     }
     public void swapToMoon(){
-        print("swapepd to sun");
         sunDrop.SetActive(false);
         moonDrop.SetActive(true);
     }
     public void swapToSun(){
         sunDrop.SetActive(true);
         moonDrop.SetActive(false);
-        print("swapepd to sun");
     }
 }
