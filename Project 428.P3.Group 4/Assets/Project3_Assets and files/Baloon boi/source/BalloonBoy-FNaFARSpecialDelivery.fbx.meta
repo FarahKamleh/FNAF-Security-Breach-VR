@@ -54,7 +54,17 @@ ModelImporter:
   - first:
       74: 8563483923021688301
     second: BalloonBoy--CPU(Revive)
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BalloonBoy_Body
+    second: {fileID: 2100000, guid: c420c5b7afa05c54980a7d90317ef6ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BalloonBoy_Eyes
+    second: {fileID: 2100000, guid: 095388810a4fca94f81c46a1e6e21fe3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
