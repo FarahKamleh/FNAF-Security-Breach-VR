@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 1001b9f9cac2c594abbc4c4a5786ef15
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -5046286788439262563
+    second: RIG_DJ_Music_Man|DJMM_Idle_Disabled_RIG_DJ_Music_Man
+  - first:
+      74: -5486246377511473111
+    second: RIG_DJ_Music_Man|DJMM_Idle_DJing_SingleLoop_RIG_DJ_Music_Man
+  - first:
+      74: -5607813721082305522
+    second: RIG_DJ_Music_Man|DJMM_Idle_Hallway_RIG_DJ_Music_Man
+  - first:
+      74: 3007056820851045798
+    second: RIG_DJ_Music_Man|DJMM_Idle_Loop_L_RIG_DJ_Music_Man
+  - first:
+      74: 5807565373178433410
+    second: RIG_DJ_Music_Man|DJMM_Idle_Loop_R_RIG_DJ_Music_Man
+  - first:
+      74: -4201025380800900579
+    second: RIG_DJ_Music_Man|DJMM_Idle_LtoR_RIG_DJ_Music_Man
+  - first:
+      74: -4527069341044622459
+    second: RIG_DJ_Music_Man|DJMM_Idle_RtoL_RIG_DJ_Music_Man
+  - first:
+      74: 8525406727941585537
+    second: RIG_DJ_Music_Man|DJMM_Jumpscare_RIG_DJ_Music_Man
+  - first:
+      74: -53871292058297972
+    second: RIG_DJ_Music_Man|DJMM_Kill2Exit_L1_RIG_DJ_Music_Man
+  - first:
+      74: -389068341797556125
+    second: RIG_DJ_Music_Man|DJMM_Kill2Exit_R1_RIG_DJ_Music_Man
+  - first:
+      74: 389020038256151875
+    second: RIG_DJ_Music_Man|DJMM_Kill2Idle_L_RIG_DJ_Music_Man
+  - first:
+      74: 1579808698754097245
+    second: RIG_DJ_Music_Man|DJMM_Kill2Idle_R_RIG_DJ_Music_Man
+  - first:
+      74: 2935938248802312024
+    second: RIG_DJ_Music_Man|DJMM_MarketingVid_RIG_DJ_Music_Man
+  - first:
+      74: 5634149325212238776
+    second: RIG_DJ_Music_Man|DJMM_Reach2Kill_L_RIG_DJ_Music_Man
+  - first:
+      74: -3778145265843473607
+    second: RIG_DJ_Music_Man|DJMM_Reach2Kill_R_RIG_DJ_Music_Man
+  - first:
+      74: 5306514830492784859
+    second: RIG_DJ_Music_Man|DJMM_Reach_L_RIG_DJ_Music_Man
+  - first:
+      74: 8699870094866311494
+    second: RIG_DJ_Music_Man|DJMM_Reach_Loop_L_RIG_DJ_Music_Man
+  - first:
+      74: 2556212473869452593
+    second: RIG_DJ_Music_Man|DJMM_Reach_Loop_R_RIG_DJ_Music_Man
+  - first:
+      74: 7312739983914048400
+    second: RIG_DJ_Music_Man|DJMM_Reach_R_RIG_DJ_Music_Man
+  - first:
+      74: -5871616710593769278
+    second: RIG_DJ_Music_Man|DJMM_TubeScare_Body_Phase1_Idle_RIG_DJ_Music_Man
+  - first:
+      74: 7174693571994276904
+    second: RIG_DJ_Music_Man|DJMM_TubeScare_Body_Phase1_IN_RIG_DJ_Music_Man
+  - first:
+      74: 106697974079236265
+    second: RIG_DJ_Music_Man|DJMM_TubeScare_Body_Phase1_OUT_RIG_DJ_Music_Man
+  - first:
+      74: -690183029202277912
+    second: RIG_DJ_Music_Man|DJMM_TubeScare_Body_Phase2_Idle_RIG_DJ_Music_Man
+  - first:
+      74: -3528467330464354078
+    second: RIG_DJ_Music_Man|DJMM_TubeScare_Body_Phase2_IN_RIG_DJ_Music_Man
+  - first:
+      74: 3737998393192842414
+    second: RIG_DJ_Music_Man|DJMM_TubeScare_Body_Phase2_OUT_RIG_DJ_Music_Man
+  - first:
+      74: -8799921907561116615
+    second: RIG_DJ_Music_Man|DJMM_Walk_RIG_DJ_Music_Man
+  - first:
+      74: 4647312628343976715
+    second: RIG_DJ_Music_Man|DJMM_Workshop_Chase_RIG_DJ_Music_Man
+  - first:
+      74: 2641110004901666197
+    second: RIG_DJ_Music_Man|DJMM_WS_Tubes_01_RIG_DJ_Music_Man
+  - first:
+      74: -6523148647839608319
+    second: RIG_DJ_Music_Man|DJMM_WS_Tubes_02_RIG_DJ_Music_Man
+  - first:
+      74: -6647592419498535257
+    second: RIG_DJ_Music_Man|DJMM_WS_Tubes_03_RIG_DJ_Music_Man
+  - first:
+      74: -399795588653045333
+    second: RIG_DJ_Music_Man|DJMM_WS_Tubes_04_RIG_DJ_Music_Man
+  - first:
+      74: 319807891900482138
+    second: RIG_DJ_Music_Man|DJMM_ZeroPose_RIG_DJ_Music_Man
+  - first:
+      74: 6472700548353615239
+    second: RIG_DJ_Music_Man|MoonMan_AimSpace_Center_RIG_Sunman
+  - first:
+      74: -7675693948497363970
+    second: RIG_DJ_Music_Man|MoonMan_AimSpace_Center_RIG_Sunman.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DJ_MusicMan_Eye
+    second: {fileID: 2100000, guid: 2cb38b94f36496844b99f0ecfc9409c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DJ_MusicMan_Main
+    second: {fileID: 2100000, guid: 09626421bac17a54683ad448fd2b3799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: x_CommonPlastiglass06
+    second: {fileID: 2100000, guid: d007f9e7e3c9bd243b5a4290fb961d95, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
