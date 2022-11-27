@@ -10,6 +10,6 @@ public class triggerBox : MonoBehaviour
         it.GetComponent<Animation>().Play();
         GameObject bonnied_ = Instantiate(bonnie, it.transform.position, it.transform.rotation);
         bonnied_.transform.localScale += new Vector3(0.06f,0.06f,0.06f);
-        bonnied_.GetComponent<Rigidbody>().velocity = new Vector3(0,5,0);
+        bonnied_.GetComponent<Rigidbody>().velocity = new Vector3(it.transform.rotation.x,5,it.transform.rotation.z);
     }
 }
