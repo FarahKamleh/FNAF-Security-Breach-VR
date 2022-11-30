@@ -13,6 +13,7 @@ public class TriggerMusic : MonoBehaviour
     public Light RWLight;
     public Light MGLight;
     public Light CLight;
+    public Light ceilingLight;
 
     // Start is called before the first frame update
     void Start()
