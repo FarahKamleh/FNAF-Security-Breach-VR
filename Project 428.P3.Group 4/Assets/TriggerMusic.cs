@@ -6,7 +6,7 @@ public class TriggerMusic : MonoBehaviour
 {
     // audio to trigger
     public AudioSource Theme;
-    // public AudioSource lightSound;
+    public AudioSource lightSound;
 
     // lights to trigger
     public Light GFLight;
@@ -21,7 +21,7 @@ public class TriggerMusic : MonoBehaviour
     {
         // make sure the song is not playing at the start
         Theme.Stop();
-        // lightSound.Stop();
+        lightSound.Stop();
 
         // turn off lights at start
         GFLight.enabled = false;
@@ -34,28 +34,28 @@ public class TriggerMusic : MonoBehaviour
 
     // when pulled down, start playing theme and turn on lights
     public void EverythingOn() {
-
-        // turn on lights
+        StartCoroutine(ExampleCoroutine());
+        // // turn on lights
         // lightSound.Play();
-        GCLight.enabled = true;
-        MGLight.enabled = true;
+        // GCLight.enabled = true;
+        // MGLight.enabled = true;
 
-        // call function to delay
+        // // call function to delay
         // StartCoroutine(ExampleCoroutine());
 
         // lightSound.Play();
-        GFLight.enabled = true;
-        RWLight.enabled = true;
+        // GFLight.enabled = true;
+        // RWLight.enabled = true;
 
-        // call function to delay
+        // // call function to delay
         // StartCoroutine(ExampleCoroutine());
 
         // lightSound.Play();
-        CLight.enabled = true;
-        ceilingLight.enabled = true;
+        // CLight.enabled = true;
+        // ceilingLight.enabled = true;
 
-        // activate the song
-        Theme.Play();
+        // // activate the song
+        // Theme.Play();
     }
 
     // when pulled back up, stop playing theme
@@ -71,13 +71,31 @@ public class TriggerMusic : MonoBehaviour
 
         // deactivate the song
         Theme.Stop();
-        // lightSound.Stop();
+        lightSound.Stop();
     }
 
     // function to delay
-    // IEnumerator ExampleCoroutine()
-    // {
-    //     // delay five seconds
-    //     yield return new WaitForSeconds(5);
-    // }
+    IEnumerator ExampleCoroutine()
+    {
+        // delay five seconds
+                // turn on lights
+        lightSound.Play();
+        GCLight.enabled = true;
+        MGLight.enabled = true;
+
+        yield return new WaitForSeconds(1);
+        lightSound.Play();
+        GFLight.enabled = true;
+        RWLight.enabled = true;
+
+        // call function to delay
+        yield return new WaitForSeconds(1);
+
+        lightSound.Play();
+        CLight.enabled = true;
+        ceilingLight.enabled = true;
+
+        // activate the song
+        Theme.Play();
+    }
 }
