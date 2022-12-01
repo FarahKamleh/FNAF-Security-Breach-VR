@@ -19,7 +19,7 @@ public class moveWFB : MonoBehaviour
         if (transform.localPosition.x < -17.0f) {
             Toggle = true;
         }
-        if (transform.localPosition.x > -12.5f) { 
+        if (transform.localPosition.x > -12.5f) {
             Toggle = false;
         }
         if (Toggle) { 
