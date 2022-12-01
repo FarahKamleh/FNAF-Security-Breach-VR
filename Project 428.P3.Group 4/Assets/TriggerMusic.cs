@@ -78,7 +78,8 @@ public class TriggerMusic : MonoBehaviour
     IEnumerator ExampleCoroutine()
     {
         // delay five seconds
-                // turn on lights
+        // turn on lights
+        yield return new WaitForSeconds(2);
         lightSound.Play();
         GCLight.enabled = true;
         MGLight.enabled = true;
