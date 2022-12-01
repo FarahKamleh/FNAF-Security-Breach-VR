@@ -27,6 +27,7 @@ public class TriggerMusic : MonoBehaviour
         RWLight.enabled = false;
         MGLight.enabled = false;
         CLight.enabled = false;
+        ceilingLight.enabled = false;
     }
 
     // when pulled down, start playing theme
@@ -41,6 +42,7 @@ public class TriggerMusic : MonoBehaviour
         RWLight.enabled = true;
         MGLight.enabled = true;
         CLight.enabled = true;
+        ceilingLight.enabled = true;
     }
 
     // when pulled back up, stop playing theme
@@ -55,5 +57,6 @@ public class TriggerMusic : MonoBehaviour
         RWLight.enabled = false;
         MGLight.enabled = false;
         CLight.enabled = false;
+        ceilingLight.enabled = false;
     }
 }
