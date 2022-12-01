@@ -25,6 +25,5 @@ public class moverobot : MonoBehaviour
             transform.Translate(Vector3.forward * Time.deltaTime);
             transform.localEulerAngles = new Vector3(0, -90, 0);
         }
-        print(Toggle);
     }
 }

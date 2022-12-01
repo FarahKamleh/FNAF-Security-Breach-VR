@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class triggerBox : MonoBehaviour
 {
-    public GameObject it;
     public GameObject bonnie;
+    public GameObject it;
     void triggered() {
-        it.GetComponent<Animation>().Play();
-        GameObject bonnied_ = Instantiate(bonnie, it.transform.position, it.transform.rotation);
+        GetComponent<Animation>().Play();
+        Vector3 newV = new Vector3 (it.transform.position.x, it.transform.position.y, it.transform.position.z);
+        GameObject bonnied_ = Instantiate(bonnie, newV, it.transform.rotation);
         bonnied_.transform.localScale += new Vector3(0.05f,0.05f,0.05f);
-        bonnied_.GetComponent<Rigidbody>().velocity = new Vector3(it.transform.rotation.x,5,it.transform.rotation.z);
+        // bonnied_.GetComponent<Rigidbody>().velocity = new Vector3(transform.localEulerAngles.x, 5, transform.localEulerAngles.z);
     }
 }
