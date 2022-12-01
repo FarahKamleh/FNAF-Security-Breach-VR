@@ -6,6 +6,7 @@ public class TriggerMusic : MonoBehaviour
 {
     // audio to trigger
     public AudioSource Theme;
+    // public AudioSource lightSound;
 
     // lights to trigger
     public Light GFLight;
@@ -20,6 +21,7 @@ public class TriggerMusic : MonoBehaviour
     {
         // make sure the song is not playing at the start
         Theme.Stop();
+        // lightSound.Stop();
 
         // turn off lights at start
         GFLight.enabled = false;
@@ -30,26 +32,34 @@ public class TriggerMusic : MonoBehaviour
         ceilingLight.enabled = false;
     }
 
-    // when pulled down, start playing theme
+    // when pulled down, start playing theme and turn on lights
     public void EverythingOn() {
+
+        // turn on lights
+        // lightSound.Play();
+        GCLight.enabled = true;
+        MGLight.enabled = true;
+
+        // call function to delay
+        // StartCoroutine(ExampleCoroutine());
+
+        // lightSound.Play();
+        GFLight.enabled = true;
+        RWLight.enabled = true;
+
+        // call function to delay
+        // StartCoroutine(ExampleCoroutine());
+
+        // lightSound.Play();
+        CLight.enabled = true;
+        ceilingLight.enabled = true;
 
         // activate the song
         Theme.Play();
-
-        // turn on lights 
-        GFLight.enabled = true;
-        GCLight.enabled = true;
-        RWLight.enabled = true;
-        MGLight.enabled = true;
-        CLight.enabled = true;
-        ceilingLight.enabled = true;
     }
 
     // when pulled back up, stop playing theme
     public void EverythingOff() {
-
-        // deactivate the song
-        Theme.Stop();
 
         // turn off lights again
         GFLight.enabled = false;
@@ -58,5 +68,16 @@ public class TriggerMusic : MonoBehaviour
         MGLight.enabled = false;
         CLight.enabled = false;
         ceilingLight.enabled = false;
+
+        // deactivate the song
+        Theme.Stop();
+        // lightSound.Stop();
     }
+
+    // function to delay
+    // IEnumerator ExampleCoroutine()
+    // {
+    //     // delay five seconds
+    //     yield return new WaitForSeconds(5);
+    // }
 }
